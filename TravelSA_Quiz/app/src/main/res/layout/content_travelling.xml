@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#b1d6ed"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.margaret.travelsa_quiz.Travelling"
+    tools:showIn="@layout/activity_travelling">
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollMain"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/success"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="20dp"
+            android:labelFor="@id/scrollMain"
+            android:gravity="start|end" />
+        <Button
+            android:id="@+id/showVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/viewVideo"
+            android:layout_gravity="center_horizontal"
+            android:onClick="showVideo"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:background="#8c9eff"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp" />
+        <Button
+            android:id="@+id/btnSummary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/viewSummary"
+            android:layout_gravity="center_horizontal"
+            android:onClick="displaySummary"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:background="#8c9eff"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:layout_marginTop="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtSummary"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</ScrollView>
+
+    <ImageView
+        android:layout_width="87dp"
+        android:layout_height="54dp"
+        android:id="@+id/img_animation"
+        android:src="@mipmap/plane"
+        android:contentDescription="@string/animatedPlane"
+        android:layout_above="@+id/btnTravelToHelp"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnHelp"
+        android:id="@+id/btnTravelToHelp"
+        android:onClick="goToHelp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:background="#8c9eff"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"/>
+
+</RelativeLayout>

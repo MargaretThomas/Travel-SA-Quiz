@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">TravelSA_Quiz</string>
+    <string name="selectionTitle">Welcome ! Please select the destination province.</string>
+    <string name="kzn">KZN</string>
+    <string name="wc">WC</string>
+    <string name="nc">NC</string>
+    <string name="ec">EC</string>
+    <string name="gp">GP</string>
+    <string name="mp">MP</string>
+    <string name="lp">LP</string>
+    <string name="nw">NW</string>
+    <string name="fs">FS</string>
+    <string name="title_activity_questions">Questions</string>
+    <string name="questionsTitle">Please answer the following questions</string>
+    <string name="buttonSubmit">Submit</string>
+    <string name="buttonClear">Clear</string>
+    <string name="title_activity_travelling">Travelling</string>
+    <string name="viewVideo">View A Video</string>
+    <string name="viewSummary">Read A Summary</string>
+    <string name="success">Your knowledge has proven that you can travel to your chosen province. Please select a travel option:</string>
+    <string name="animatedPlane">aeroplane animation</string>
+    <string name="title_activity_help">Help</string>
+    <string name="helpTitle">Help</string>
+    <string name="btnHelp">Go to Help</string>
+    <string name="btnHome">Go Home</string>
+</resources>

@@ -1,0 +1,4 @@
+What does FS stand for?,Free State
+What is the capital of FS?,Bloemfontein
+Which landlocked country exists within FS?,Lesotho
+What is the most spoken language?,Sesotho

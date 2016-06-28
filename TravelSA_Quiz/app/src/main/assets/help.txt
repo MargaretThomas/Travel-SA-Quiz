@@ -1,0 +1,7 @@
+Aim: User can select a province within SA to travel to and the user will have to answer all the questions correctly in order to “travel” to that province.
+
+How To Play
+Step One: Select a province 
+Step Two: Question about the province will all have to be answered correctly.
+Step Three: If all answers are correct, the user will be able to read a summary or they can select to view a video about the selected province.
+NB: If all answers are not correct, the user will be able to correct the answers - max 3 tries. If not successful, the game will return to the home page, which is the province selection page.

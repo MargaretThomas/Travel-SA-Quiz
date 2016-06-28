@@ -1,0 +1,4 @@
+What does KZN stand for?,Kwazulu natal
+What is the capital of KZN?,Pietermaritzburg
+What is the major city?,Durban
+What is the main language?,Zulu

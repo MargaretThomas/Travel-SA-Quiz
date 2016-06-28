@@ -1,0 +1,4 @@
+What does EC stand for?,Eastern Cape
+What is the capital of EC?,Bhisho
+What is the major city?,Port Elizabeth
+What is the main language?,Xhosa

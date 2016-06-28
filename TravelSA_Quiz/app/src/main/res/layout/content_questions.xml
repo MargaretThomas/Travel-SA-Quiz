@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.margaret.travelsa_quiz.Questions"
+    tools:showIn="@layout/activity_questions"
+    android:background="#79e379">
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrQuestions">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/questionsTitle"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25sp"
+            android:labelFor="@id/scrQuestions"
+            android:gravity="start|end" />
+        <!-- Question One -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtQOne"
+            android:textSize="15sp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtQOne"
+            android:inputType="text"
+            android:textSize="15sp"
+            android:labelFor="@id/txtQOne"/>
+
+        <!-- Question Two -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtQTwo"
+            android:textSize="15sp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtQTwo"
+            android:inputType="text"
+            android:textSize="15sp"
+            android:labelFor="@id/txtQTwo"/>
+
+        <!-- Question Three -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtQThree"
+            android:textSize="15sp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtQThree"
+            android:inputType="text"
+            android:textSize="15sp"
+            android:labelFor="@id/txtQThree"/>
+
+        <!-- Question Four -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtQFour"
+            android:textSize="15sp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtQFour"
+            android:inputType="text"
+            android:textSize="15sp"
+            android:labelFor="@id/txtQFour"/>
+
+        <!-- Submit and Clear buttons in a horizontal linear layout -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="20dp">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnSubmit"
+                android:text="@string/buttonSubmit"
+                android:onClick="determineResult"
+                android:textSize="15sp"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:background="#8c9eff"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:layout_marginRight="10dp" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnClear"
+                android:text="@string/buttonClear"
+                android:onClick="clearAll"
+                android:textSize="15sp"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:background="#8c9eff"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:layout_marginLeft="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnHelp"
+        android:id="@+id/btnQuestionsToHelp"
+        android:onClick="goToHelp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:background="#8c9eff"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp" />
+</RelativeLayout>
